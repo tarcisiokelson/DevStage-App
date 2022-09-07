@@ -1,6 +1,6 @@
 ## DevStage Application
 
-<p>Your place projects showcases.</p>
+<p>Your place for showcase projects.</p>
 
 Can you imagine a I.T social media that you can show all of your carrer progress for all the community? Yeah, we present you guys, DevStage.
 
