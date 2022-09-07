@@ -1,0 +1,93 @@
+.comment {
+  margin-top: 2rem;
+  gap: 1rem;
+  display: flex;
+}
+
+.commentBox {
+  flex: 1;
+}
+
+.authorAndTime {
+  display: flex;
+  flex-direction: column;
+}
+
+.authorAndTime time {
+  color: var(--gray-400);
+  font-size: 0.75rem;
+}
+
+.commentContent {
+  display: flex;
+  background: var(--gray-700);
+  padding: 1.75rem;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trash {
+  color: var(--gray-500);
+  background-color: transparent;
+  border: 0;
+  transition: all 200ms;
+}
+
+.trash:hover {
+  transform: scale(1.1);
+  transform: translateY(4px);
+  color: var(--red-warning);
+  cursor: pointer;
+}
+
+footer > button {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--gray-500);
+  margin-top: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+footer span {
+  color: var(--green-300);
+}
+
+footer span:hover {
+  color: var(--green-500);
+}
+
+.span_white {
+  color: white;
+}
+
+.span_white:hover {
+  color: var(--gray-500);
+}
+
+.icon_comment {
+  transition: all 200ms;
+}
+
+.icon_comment:hover {
+  transform: translateY(-4px);
+}
+
+.icon_qtd {
+  font-size: 0.9rem;
+}
+
+.icon_qtd::before {
+  content: '\2022';
+  padding: 0 0.35rem;
+  color: white;
+}
