@@ -24,4 +24,5 @@ Here we can see some learning topics:
 
 You can see the wip link below:
 
-<a style="Cursor: Pointer;" hef="https://google.com">DevStage Application Live Version</a>
+<a style="Cursor: Pointer;" hef="https://dev-stage-app.vercel.app/">DevStage Application Live Version</a>
+https://dev-stage-app.vercel.app/
